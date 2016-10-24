@@ -36,11 +36,9 @@ Page({
     },
     showToast: function(msg) {
         this.setData({
-            msg: msg
-        });
-        this.setData({
+            msg: msg,
             toastHidden: false
-        })
+        });
     },
     sendSms: function() {
         var _this = this;

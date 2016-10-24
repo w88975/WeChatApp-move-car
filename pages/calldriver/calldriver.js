@@ -24,11 +24,9 @@ Page({
     },
     showToast: function(msg) {
         this.setData({
-            msg: msg
-        });
-        this.setData({
+            msg: msg,
             toastHidden: false
-        })
+        });
     },
     bindInputChange: function(event){
         this.data.plateVal = event.detail.value.toUpperCase();
