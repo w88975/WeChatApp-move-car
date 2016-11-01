@@ -1,6 +1,6 @@
 /**app.wxss**/
 @font-face {
-    font-family: 'fontAwesome'>;
+    font-family: 'fontAwesome';
     src: url('../../resource/fontawesome-webfont.woff') format('woff');
 }
 
@@ -65,7 +65,7 @@ page{
 .content_group .title {
     display: flex;
     height: 1.5rem;
-    font-size: .5rem;
+    font-size: .7rem;
     align-items: center;
     text-shadow: 1px 1px 1px #343231;
     padding-left: 1rem;

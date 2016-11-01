@@ -19,6 +19,6 @@
 .kbutton text {
     width: 100%;
     text-align: center;
-    font-size: .5rem;
+    font-size: .7rem;
     text-shadow: 1px 1px 1px #343231;
 }
